@@ -12,6 +12,8 @@ if (isset($_GET['sub'])) {
 			$res = "01-05日备忘：出差";
 		}else{
 			$res = "无备忘";
+			// echo "<script>alert('".$res."')</script>";
+			// echo "123";
 		}
 	}else{
 			$res = "无备忘";
